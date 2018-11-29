@@ -1,9 +1,7 @@
-package com.juangm.roomwordsample.data.data.local
+package com.juangm.roomwordsample.data.local
 
 import android.os.AsyncTask
-import com.juangm.roomwordsample.data.data.local.WordDao
-import com.juangm.roomwordsample.data.data.local.WordRoomDatabase
-import com.juangm.roomwordsample.data.ui.models.Word
+import com.juangm.roomwordsample.ui.models.Word
 
 class PopulateDbAsync internal constructor(db: WordRoomDatabase?) : AsyncTask<Void, Void, Void>() {
 

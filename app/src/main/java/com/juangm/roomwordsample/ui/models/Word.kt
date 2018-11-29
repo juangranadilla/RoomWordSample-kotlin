@@ -1,4 +1,4 @@
-package com.juangm.roomwordsample.data.ui.models
+package com.juangm.roomwordsample.ui.models
 
 import android.arch.persistence.room.ColumnInfo
 import android.arch.persistence.room.Entity

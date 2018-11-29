@@ -1,11 +1,11 @@
-package com.juangm.roomwordsample.data.data.local
+package com.juangm.roomwordsample.data.local
 
 import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
 import android.arch.persistence.room.Database
 import android.content.Context
 import android.arch.persistence.db.SupportSQLiteDatabase
-import com.juangm.roomwordsample.data.ui.models.Word
+import com.juangm.roomwordsample.ui.models.Word
 
 @Database(entities = arrayOf(Word::class), version = 1)
 abstract class WordRoomDatabase : RoomDatabase() {

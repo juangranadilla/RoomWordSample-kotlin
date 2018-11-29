@@ -1,4 +1,4 @@
-package com.juangm.roomwordsample.data.ui.wordlist
+package com.juangm.roomwordsample.ui.wordlist
 
 import android.arch.lifecycle.Observer
 import android.os.Bundle
@@ -13,8 +13,8 @@ import android.content.Intent
 import android.widget.Toast
 import android.app.Activity
 import com.juangm.roomwordsample.R
-import com.juangm.roomwordsample.data.ui.models.Word
-import com.juangm.roomwordsample.data.ui.newword.NewWordActivity
+import com.juangm.roomwordsample.ui.models.Word
+import com.juangm.roomwordsample.ui.newword.NewWordActivity
 
 class WordListActivity : AppCompatActivity() {
 

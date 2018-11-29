@@ -1,11 +1,11 @@
-package com.juangm.roomwordsample.data.data.repository
+package com.juangm.roomwordsample.data.repository
 
 import android.app.Application
 import android.arch.lifecycle.LiveData
 import android.os.AsyncTask
-import com.juangm.roomwordsample.data.ui.models.Word
-import com.juangm.roomwordsample.data.data.local.WordDao
-import com.juangm.roomwordsample.data.data.local.WordRoomDatabase
+import com.juangm.roomwordsample.ui.models.Word
+import com.juangm.roomwordsample.data.local.WordDao
+import com.juangm.roomwordsample.data.local.WordRoomDatabase
 
 class WordRepository internal constructor(application: Application) {
 

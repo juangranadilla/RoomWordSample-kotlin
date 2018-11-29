@@ -1,4 +1,4 @@
-package com.juangm.roomwordsample.data.ui.newword
+package com.juangm.roomwordsample.ui.newword
 
 import android.app.Activity
 import android.support.v7.app.AppCompatActivity

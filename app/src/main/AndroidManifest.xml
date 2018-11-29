@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".data.ui.wordlist.WordListActivity"
+                android:name="com.juangm.roomwordsample.ui.wordlist.WordListActivity"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".data.ui.newword.NewWordActivity">
+        <activity android:name="com.juangm.roomwordsample.ui.newword.NewWordActivity">
         </activity>
     </application>
 

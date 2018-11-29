@@ -1,4 +1,4 @@
-package com.juangm.roomwordsample.data.ui.wordlist
+package com.juangm.roomwordsample.ui.wordlist
 
 import android.content.Context
 import android.view.ViewGroup
@@ -7,7 +7,7 @@ import android.widget.TextView
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import com.juangm.roomwordsample.R
-import com.juangm.roomwordsample.data.ui.models.Word
+import com.juangm.roomwordsample.ui.models.Word
 
 class WordListAdapter internal constructor(context: Context) : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
 

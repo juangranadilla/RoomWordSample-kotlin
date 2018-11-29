@@ -1,10 +1,10 @@
-package com.juangm.roomwordsample.data.ui.wordlist
+package com.juangm.roomwordsample.ui.wordlist
 
 import android.app.Application
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.AndroidViewModel
-import com.juangm.roomwordsample.data.data.repository.WordRepository
-import com.juangm.roomwordsample.data.ui.models.Word
+import com.juangm.roomwordsample.data.repository.WordRepository
+import com.juangm.roomwordsample.ui.models.Word
 
 class WordListViewModel(application: Application) : AndroidViewModel(application) {
 
